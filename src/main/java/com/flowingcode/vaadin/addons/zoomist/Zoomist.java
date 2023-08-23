@@ -41,6 +41,7 @@ import lombok.Getter;
  */
 @SuppressWarnings("serial")
 @NpmPackage(value = "zoomist", version = "1.1.1")
+@NpmPackage(value = "sass", version = "1.66.1")
 @JsModule("./zoomist/fc-zoomist.ts")
 @Tag("fc-zoomist")
 public class Zoomist extends Component {
