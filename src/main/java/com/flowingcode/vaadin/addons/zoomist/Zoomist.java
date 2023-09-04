@@ -32,10 +32,8 @@ import java.util.Objects;
 import lombok.Getter;
 
 /**
- * Java compone.
- *
- * <p>
- * This component is a wrapper for Zoomist Web Component (https://npm.io/package/zoomist)
+ * This component is a wrapper for Zoomist Component
+ * (https://npm.io/package/zoomist)
  *
  * @author Felipe Lang / Flowing Code
  */
