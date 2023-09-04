@@ -20,7 +20,6 @@
 package com.flowingcode.vaadin.addons.zoomist.test;
 
 import com.flowingcode.vaadin.addons.zoomist.Zoomist;
-import com.vaadin.flow.component.html.Div;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -45,8 +44,6 @@ public class SerializationTest {
   @Test
   public void testSerialization() throws ClassNotFoundException, IOException {
     try {
-      Div comp1 = new Div();
-      Div comp2 = new Div();
       testSerializationOf(new Zoomist(""));
     } catch (Exception e) {
       Assert.fail("Problem while testing serialization: " + e.getMessage());
