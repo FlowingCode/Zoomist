@@ -22,6 +22,10 @@ package com.flowingcode.vaadin.addons.zoomist;
 import com.vaadin.flow.component.ComponentEvent;
 import com.vaadin.flow.component.DomEvent;
 
+/**
+ * Event that is fired when touch end with two fingers. This event only works on
+ * mobile device.
+ */
 @DomEvent(value = "zoomist-pinch-end")
 public class PinchEndEvent extends ComponentEvent<Zoomist> {
 

@@ -24,6 +24,9 @@ import com.vaadin.flow.component.DomEvent;
 import com.vaadin.flow.component.EventData;
 import lombok.Getter;
 
+/**
+ * Event that is fired when mouse down to the slider.
+ */
 @DomEvent(value = "zoomist-slide-start")
 public class SlideStartEvent extends ComponentEvent<Zoomist> {
 

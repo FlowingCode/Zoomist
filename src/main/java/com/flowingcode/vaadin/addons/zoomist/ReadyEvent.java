@@ -22,6 +22,9 @@ package com.flowingcode.vaadin.addons.zoomist;
 import com.vaadin.flow.component.ComponentEvent;
 import com.vaadin.flow.component.DomEvent;
 
+/**
+ * Event that is fired when the zoomist instance is ready.
+ */
 @DomEvent("zoomist-ready")
 public class ReadyEvent extends ComponentEvent<Zoomist> {
 

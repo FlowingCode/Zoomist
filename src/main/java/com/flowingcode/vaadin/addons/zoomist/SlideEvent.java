@@ -26,6 +26,9 @@ import com.vaadin.flow.component.EventData;
 import com.vaadin.flow.dom.DebouncePhase;
 import lombok.Getter;
 
+/**
+ * Event that is fired when sliding the slider.
+ */
 @DomEvent(value = "zoomist-slide",
     debounce = @DebounceSettings(timeout = 250, phases = DebouncePhase.TRAILING))
 public class SlideEvent extends ComponentEvent<Zoomist> {

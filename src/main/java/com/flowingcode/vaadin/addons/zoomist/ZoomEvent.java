@@ -26,6 +26,9 @@ import com.vaadin.flow.component.EventData;
 import com.vaadin.flow.dom.DebouncePhase;
 import lombok.Getter;
 
+/**
+ * Event that is fired when zooming.
+ */
 @DomEvent(value = "zoomist-zoom",
     debounce = @DebounceSettings(timeout = 250, phases = DebouncePhase.TRAILING))
 public class ZoomEvent extends ComponentEvent<Zoomist> {

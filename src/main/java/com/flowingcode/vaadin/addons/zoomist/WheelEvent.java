@@ -24,6 +24,9 @@ import com.vaadin.flow.component.DebounceSettings;
 import com.vaadin.flow.component.DomEvent;
 import com.vaadin.flow.dom.DebouncePhase;
 
+/**
+ * Event that is fired when wheeling.
+ */
 @DomEvent(value = "zoomist-wheel",
     debounce = @DebounceSettings(timeout = 250, phases = DebouncePhase.TRAILING))
 public class WheelEvent extends ComponentEvent<Zoomist> {
