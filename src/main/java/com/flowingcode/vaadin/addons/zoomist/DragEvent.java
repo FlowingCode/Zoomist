@@ -29,8 +29,8 @@ import lombok.Getter;
 /**
  * Event that is fired when the image is dragging.
  */
-@DomEvent(value = "zoomist-drag", 
-debounce = @DebounceSettings(timeout = 250, phases = DebouncePhase.TRAILING))
+@DomEvent(value = "zoomist-drag",
+    debounce = @DebounceSettings(timeout = 250, phases = DebouncePhase.TRAILING))
 public class DragEvent extends ComponentEvent<Zoomist> {
 
   private static final long serialVersionUID = 1L;
@@ -41,7 +41,8 @@ public class DragEvent extends ComponentEvent<Zoomist> {
   private final double offsetY;
 
   public DragEvent(Zoomist source, boolean fromClient,
-      @EventData("event.detail.offsetX") double offsetX, @EventData("event.detail.offsetY") double offsetY) {
+      @EventData("event.detail.offsetX") double offsetX,
+      @EventData("event.detail.offsetY") double offsetY) {
     super(source, fromClient);
     this.offsetX = offsetX;
     this.offsetY = offsetY;

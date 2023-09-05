@@ -23,14 +23,12 @@ import com.vaadin.flow.component.ComponentEvent;
 import com.vaadin.flow.component.DomEvent;
 
 /**
- * Event that is fired when touch start with two fingers. This event only works on
- * mobile device. 
+ * Event that is fired when touch start with two fingers. This event only works on mobile device.
  */
 @DomEvent(value = "zoomist-pinch-start")
 public class PinchStartEvent extends ComponentEvent<Zoomist> {
 
   private static final long serialVersionUID = 1L;
-
 
   public PinchStartEvent(Zoomist source, boolean fromClient) {
     super(source, fromClient);
