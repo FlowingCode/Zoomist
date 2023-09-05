@@ -33,8 +33,7 @@ import java.util.Objects;
 import lombok.Getter;
 
 /**
- * This component is a wrapper for Zoomist Component
- * (https://npm.io/package/zoomist)
+ * This component is a wrapper for Zoomist Component (https://npm.io/package/zoomist)
  *
  * @author Felipe Lang / Flowing Code
  */
@@ -86,8 +85,8 @@ public class Zoomist extends Component {
   }
 
   /**
-   * Sets whether slider is visible or not. If true slider will be visible and
-   * initialized with default options. *
+   * Sets whether slider is visible or not. If true slider will be visible and initialized with
+   * default options. *
    * 
    * @param visible if true, slider is visible
    *                if false, slider is not visible
@@ -99,9 +98,9 @@ public class Zoomist extends Component {
   /**
    * Sets slider's options.
    * 
-   * @param el        string with CSS selector or querySelector of slider
+   * @param el string with CSS selector or querySelector of slider
    * @param direction direction of the slider
-   * @param maxRatio  max ratio of the image
+   * @param maxRatio max ratio of the image
    */
   public void setSlider(String el, Direction direction, Double maxRatio) {
     JsonObject options = Json.createObject();
@@ -128,8 +127,8 @@ public class Zoomist extends Component {
   }
 
   /**
-   * Sets whether zoomer is visible or not. If true zoomer will be visible and
-   * initialized with default options.
+   * Sets whether zoomer is visible or not. If true zoomer will be visible and initialized with
+   * default options.
    * 
    * @param visible if true, zoomer is visible
    *                if false, zoomer is not visible
@@ -141,12 +140,9 @@ public class Zoomist extends Component {
   /**
    * Sets zoomer's options.
    * 
-   * @param inEl            string with CSS selector or querySelector of zoom in
-   *                        element
-   * @param outEl           string with CSS selector or querySelector of zoom out
-   *                        element
-   * @param disableOnBounds zoomer will be disabled when image can't be larger or
-   *                        smalle
+   * @param inEl string with CSS selector or querySelector of zoom in element
+   * @param outEl string with CSS selector or querySelector of zoom out element
+   * @param disableOnBounds zoomer will be disabled when image can't be larger or smalle
    */
   public void setZoomer(String inEl, String outEl, boolean disableOnBounds) {
     JsonObject options = Json.createObject();
@@ -230,11 +226,10 @@ public class Zoomist extends Component {
   }
 
   /**
-   * Sets whether image is pinchable when pinching.
-   * This feature only works on mobile device.
+   * Sets whether image is pinchable when pinching. This feature only works on mobile device.
    * 
    * @param pinchable true, image is pinchable
-   *                  if false, image is not pinchable
+   *                  false, image is not pinchable
    */
   public void setPinchable(boolean pinchable) {
     getElement().setProperty("pinchable", pinchable);
@@ -406,7 +401,7 @@ public class Zoomist extends Component {
     return addListener(WheelEvent.class, listener);
   }
 
-   /**
+  /**
    * Adds a {@link DragStartEvent} listener to zoomist.
    * 
    * @param listener a drag start event listener
@@ -436,7 +431,7 @@ public class Zoomist extends Component {
     return addListener(DragEndEvent.class, listener);
   }
 
-   /**
+  /**
    * Adds a {@link SlideStartEvent} listener to zoomist.
    * 
    * @param listener a slide start event listener
@@ -475,7 +470,7 @@ public class Zoomist extends Component {
   public Registration addPinchStartListener(ComponentEventListener<PinchStartEvent> listener) {
     return addListener(PinchStartEvent.class, listener);
   }
- 
+
   /**
    * Adds a {@link PinchEvent} listener to zoomist.
    * 

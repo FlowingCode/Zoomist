@@ -38,7 +38,8 @@ public class DragStartEvent extends ComponentEvent<Zoomist> {
   private final double offsetY;
 
   public DragStartEvent(Zoomist source, boolean fromClient,
-      @EventData("event.detail.offsetX") double offsetX, @EventData("event.detail.offsetY") double offsetY) {
+      @EventData("event.detail.offsetX") double offsetX,
+      @EventData("event.detail.offsetY") double offsetY) {
     super(source, fromClient);
     this.offsetX = offsetX;
     this.offsetY = offsetY;
