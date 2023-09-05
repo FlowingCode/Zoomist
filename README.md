@@ -1,15 +1,16 @@
-[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/zoomist-addon)
-[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/zoomist--addon.svg)](https://vaadin.com/directory/component/zoomist-addon)
+[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/zoomist-add-on)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/zoomist-add-on.svg)](https://vaadin.com/directory/component/zoomist-add-on)
 [![Build Status](https://jenkins.flowingcode.com/job/Zoomist-addon/badge/icon)](https://jenkins.flowingcode.com/job/Zoomist-addon)
 
 # Zoomist Add-on
 
-Wrapper component for [Zoomist Web Component](https://npm.io/package/zoomist).
+Wrapper component for [Zoomist JavaScript Library](https://npm.io/package/zoomist) that allows to apply to zooming images.
+
 
 ## Features
 
-* A library for image zooming
-* Also supportted on mobile devices
+* Zoom, drag, pinch images.
+* Mobile devices support.
 
 ## Online demo
 
@@ -17,7 +18,7 @@ Wrapper component for [Zoomist Web Component](https://npm.io/package/zoomist).
 
 ## Download release
 
-[Available in Vaadin Directory](https://vaadin.com/directory/component/zoomist-addon)
+[Available in Vaadin Directory](https://vaadin.com/directory/component/zoomist-add-on)
 
 ### Maven install
 
