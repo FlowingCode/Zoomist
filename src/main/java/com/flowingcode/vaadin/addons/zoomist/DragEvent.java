@@ -26,8 +26,11 @@ import com.vaadin.flow.component.EventData;
 import com.vaadin.flow.dom.DebouncePhase;
 import lombok.Getter;
 
-@DomEvent(value = "zoomist-drag",
-    debounce = @DebounceSettings(timeout = 250, phases = DebouncePhase.TRAILING))
+/**
+ * Event that is fired when the image is dragging.
+ */
+@DomEvent(value = "zoomist-drag", 
+debounce = @DebounceSettings(timeout = 250, phases = DebouncePhase.TRAILING))
 public class DragEvent extends ComponentEvent<Zoomist> {
 
   private static final long serialVersionUID = 1L;

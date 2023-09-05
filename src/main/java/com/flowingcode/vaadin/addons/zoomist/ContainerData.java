@@ -23,6 +23,9 @@ import java.io.Serializable;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Container data representation.
+ */
 @Getter
 @Setter
 public class ContainerData implements Serializable {

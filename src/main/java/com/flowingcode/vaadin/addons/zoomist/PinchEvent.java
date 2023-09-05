@@ -24,6 +24,10 @@ import com.vaadin.flow.component.DebounceSettings;
 import com.vaadin.flow.component.DomEvent;
 import com.vaadin.flow.dom.DebouncePhase;
 
+/**
+ * Event that is fired when touch move with two fingers. This event only works
+ * on mobile device.
+ */
 @DomEvent(value = "zoomist-pinch",
     debounce = @DebounceSettings(timeout = 250, phases = DebouncePhase.TRAILING))
 public class PinchEvent extends ComponentEvent<Zoomist> {

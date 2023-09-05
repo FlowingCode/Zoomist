@@ -24,6 +24,9 @@ import com.vaadin.flow.component.DomEvent;
 import com.vaadin.flow.component.EventData;
 import lombok.Getter;
 
+/**
+ * Event that is fired when mouse up to the image.
+ */
 @DomEvent(value = "zoomist-drag-end")
 public class DragEndEvent extends ComponentEvent<Zoomist> {
 
