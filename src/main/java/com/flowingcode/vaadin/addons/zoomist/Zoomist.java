@@ -183,10 +183,6 @@ public class Zoomist extends Component {
     return getElement().getProperty("height");
   }
 
-  public String getContainerData2() {
-    return getElement().getProperty("containerData");
-  }
-
   public void zoom(double ratio) {
     getElement().callJsFunction("zoom", ratio);
   }
