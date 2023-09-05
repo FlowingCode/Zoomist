@@ -4,7 +4,7 @@
 
 # Zoomist Add-on
 
-Wrapper component for [Zoomist JavaScript Library](https://npm.io/package/zoomist) that allows to apply to zooming images.
+Wrapper component for [Zoomist JavaScript Library](https://npm.io/package/zoomist) that allows to apply zooming to images.
 
 
 ## Features
