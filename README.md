@@ -26,7 +26,7 @@ Add the following dependencies in your pom.xml file:
 
 ```xml
 <dependency>
-   <groupId>org.vaadin.addons.flowingcode</groupId>
+   <groupId>com.flowingcode.vaadin.addons</groupId>
    <artifactId>zoomist-addon</artifactId>
    <version>X.Y.Z</version>
 </dependency>
