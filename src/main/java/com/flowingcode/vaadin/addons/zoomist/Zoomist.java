@@ -44,6 +44,9 @@ import lombok.Getter;
 @Tag("fc-zoomist")
 public class Zoomist extends Component {
 
+  /**
+   * Enumeration representing the image fill type.
+   */
   public enum Fill {
     COVER("cover"), CONTAIN("contain"), NONE("none");
 
@@ -55,6 +58,9 @@ public class Zoomist extends Component {
     }
   }
 
+  /**
+   * Enumeration representing the slider direction.
+   */
   public enum Direction {
     HORIZONTAL("horizontal"), VERTICAL("vertical");
 
