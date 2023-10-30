@@ -44,7 +44,7 @@ import lombok.Getter;
 @Tag("fc-zoomist")
 public class Zoomist extends Component {
 
-  enum Fill {
+  public enum Fill {
     COVER("cover"), CONTAIN("contain"), NONE("none");
 
     @Getter
@@ -55,7 +55,7 @@ public class Zoomist extends Component {
     }
   }
 
-  enum Direction {
+  public enum Direction {
     HORIZONTAL("horizontal"), VERTICAL("vertical");
 
     @Getter
