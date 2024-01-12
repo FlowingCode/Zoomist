@@ -100,3 +100,9 @@ To do so, just add ```com.flowingcode``` to the ```vaadin.whitelisted-packages``
 ```vaadin.whitelisted-packages = com.vaadin,org.vaadin,dev.hilla,com.flowingcode```
  
 More information on Spring whitelisted configuration [here](https://vaadin.com/docs/latest/integrations/spring/configuration/#configure-the-scanning-of-packages).
+
+## Fix for npm sass package setup
+
+In order for npm to properly install sass package, a .npmrc file is needed. Create the file in your project's root folder add this line to it:
+
+```legacy-peer-deps=true```
