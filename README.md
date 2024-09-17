@@ -2,6 +2,7 @@
 [![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/zoomist-add-on.svg)](https://vaadin.com/directory/component/zoomist-add-on)
 [![Build Status](https://jenkins.flowingcode.com/job/Zoomist-addon/badge/icon)](https://jenkins.flowingcode.com/job/Zoomist-addon)
 [![Maven Central](https://img.shields.io/maven-central/v/com.flowingcode.vaadin.addons/zoomist-addon)](https://mvnrepository.com/artifact/com.flowingcode.vaadin.addons/zoomist-addon)
+[![Javadoc](https://img.shields.io/badge/javadoc-00b4f0)](https://javadoc.flowingcode.com/artifact/com.flowingcode.vaadin.addons/zoomist-addon)
 
 # Zoomist Add-on
 
