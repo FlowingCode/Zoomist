@@ -2,7 +2,7 @@
  * #%L
  * Zoomist Add-on
  * %%
- * Copyright (C) 2023 Flowing Code
+ * Copyright (C) 2023 - 2026 Flowing Code
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,7 +42,7 @@ import lombok.experimental.ExtensionMethod;
  */
 @SuppressWarnings("serial")
 @NpmPackage(value = "zoomist", version = "1.1.1")
-@NpmPackage(value = "sass", version = "1.66.1")
+@NpmPackage(value = "sass", version = "1.72.0")
 @JsModule("./zoomist/fc-zoomist.ts")
 @Tag("fc-zoomist")
 @ExtensionMethod(value = JsonMigration.class, suppressBaseMethods = true)
