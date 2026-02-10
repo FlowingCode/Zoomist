@@ -19,6 +19,7 @@
  */
 package com.flowingcode.vaadin.addons.zoomist;
 
+import com.flowingcode.vaadin.jsonmigration.JsonMigration;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.ComponentEventListener;
 import com.vaadin.flow.component.Tag;
@@ -32,6 +33,7 @@ import elemental.json.JsonObject;
 import java.util.Objects;
 
 import lombok.Getter;
+import lombok.experimental.ExtensionMethod;
 
 /**
  * This component is a wrapper for Zoomist Component (https://npm.io/package/zoomist)
@@ -43,6 +45,7 @@ import lombok.Getter;
 @NpmPackage(value = "sass", version = "1.66.1")
 @JsModule("./zoomist/fc-zoomist.ts")
 @Tag("fc-zoomist")
+@ExtensionMethod(value = JsonMigration.class, suppressBaseMethods = true)
 public class Zoomist extends Component {
 
   /**
