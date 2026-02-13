@@ -4,7 +4,7 @@
 
 	<groupId>com.flowingcode.vaadin.addons</groupId>
 	<artifactId>zoomist-addon</artifactId>
-	<version>1.2.0</version>
+	<version>1.2.1-SNAPSHOT</version>
 	<name>Zoomist Add-on</name>
 	<description>Zoomist Add-on for Vaadin Flow</description>
 	<url>https://www.flowingcode.com/en/open-source/</url>
@@ -40,7 +40,7 @@
 		<url>https://github.com/FlowingCode/zoomist</url>
 		<connection>scm:git:git://github.com/FlowingCode/zoomist.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com:/FlowingCode/zoomist.git</developerConnection>
-		<tag>1.2.0</tag>
+		<tag>master</tag>
 	</scm>
 
 	<developers>
