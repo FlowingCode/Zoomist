@@ -27,6 +27,8 @@ import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.function.SerializableConsumer;
 import com.vaadin.flow.server.AbstractStreamResource;
+import com.vaadin.flow.server.StreamResourceRegistry;
+import com.vaadin.flow.server.streams.DownloadHandler;
 import com.vaadin.flow.shared.Registration;
 import elemental.json.Json;
 import elemental.json.JsonObject;
@@ -90,8 +92,26 @@ public class Zoomist extends Component {
    *
    * @param src the source image
    */
+  public Zoomist(DownloadHandler src) {
+    setSrc(src);
+  }
+
+  /**
+   * Creates a new instance of Zoomist for the specified source image.
+   *
+   * @param src the source image
+   */
   public Zoomist(AbstractStreamResource src) {
     setSrc(src);
+  }
+
+  /**
+   * Sets the source url of image.
+   *
+   * @param src the source image
+   */
+  public void setSrc(DownloadHandler src) {
+    setSrc(new StreamResourceRegistry.ElementStreamResource(src, getElement()));
   }
 
   /**
