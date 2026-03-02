@@ -17,3 +17,9 @@
  * limitations under the License.
  * #L%
  */
+
+#content.zoomist:not(.demos-v24) {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--vaadin-gap-s) * (1 - var(--vaadin-lumo-theme, 0)));
+}
