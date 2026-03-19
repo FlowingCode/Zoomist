@@ -14,6 +14,10 @@ Wrapper component for [Zoomist JavaScript Library](https://npm.io/package/zoomis
 * Zoom, drag, pinch images.
 * Mobile devices support.
 
+## Supported versions
+
+Supported versions: Vaadin 24 (add-on version 1.x)
+
 ## Online demo
 
 [Online demo here](http://addonsv24.flowingcode.com/zoomist)
