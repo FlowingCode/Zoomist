@@ -16,7 +16,7 @@ Wrapper component for [Zoomist JavaScript Library](https://npm.io/package/zoomis
 
 ## Supported versions
 
-Supported versions: Vaadin 24 (add-on version 1.x)
+Supported versions: Vaadin 24-25 (add-on version 1.x)
 
 ## Online demo
 
